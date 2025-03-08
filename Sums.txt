@@ -1,0 +1,424 @@
+
+Use the one-mean t-test to perform the required hypothesis test at the 5% significance level.
+x bar = 21, s = 4, n = 32, H0: μ = 22, Ha: μ< 22
+
+What is t statistic? (Round your answer to 3 decimal places)
+To calculate the t statistic, we can use the formula:
+
+t = (x bar - μ) / (s / sqrt(n))
+
+where x bar is the sample mean, μ is the population mean under the null hypothesis, s is the sample standard deviation, and n is the sample size.
+
+Plugging in the values, we get:
+
+t = (21 - 22) / (4 / sqrt(32)) = -4.0
+
+Rounding to 3 decimal places, the t statistic is -4.000.
+
+
+
+
+
+Preliminary data analyses indicate that it is reasonable to use a t-test to carry out the specified hypothesis test. Perform the t-test using the P-value approach.
+
+Test whether the mean weight of female college students differs from 132 lb. The mean weight for a random sample of 20 female college students was x = 137 lb with a standard deviation, s, of 14.2 lb. Use a significance level of α = 0.1.
+
+What is the p-value? (Round your answer to 4 decimal places)
+
+We can use a one-sample t-test to test whether the mean weight of female college students differs from 132 lb. The null and alternative hypotheses are:
+
+H0: μ = 132 (the mean weight is 132 lb)
+Ha: μ ≠ 132 (the mean weight is not 132 lb)
+
+The test statistic for this hypothesis test is given by:
+
+t = (x - μ) / (s / sqrt(n))
+
+where x is the sample mean, μ is the hypothesized population mean, s is the sample standard deviation, and n is the sample size.
+
+Plugging in the values, we get:
+
+t = (137 - 132) / (14.2 / sqrt(20)) = 2.087
+
+The degrees of freedom for this test is n - 1 = 19. Using a t-distribution table or calculator with 19 degrees of freedom, we find that the p-value for this test is 0.0507.
+
+Since the significance level is α = 0.1 and the p-value is less than α, we reject the null hypothesis. We have sufficient evidence to conclude that the mean weight of female college students is not 132 lb.
+
+Rounding to 4 decimal places, the p-value is 0.0507.
+
+
+
+
+
+Estimate the P-value:
+Two-tailed test, n = 8, and t = 3.725
+
+options:
+
+a)P < 0.05
+
+
+b)P > 0.01
+
+
+c)P < 0.01
+
+
+d)P > 0.05
+Using the t-distribution table or calculator with 8 - 1 = 7 degrees of freedom, we can estimate the p-value for the two-tailed test with t = 3.725.
+
+From the table or calculator, we find that the area to the right of 3.725 under the t-distribution curve is 0.005 (approximately). The area to the left of -3.725 is also 0.005. Therefore, the total area in both tails is 0.005 + 0.005 = 0.01.
+
+Since this is a two-tailed test, the p-value is twice this tail area, or 2 * 0.01 = 0.02.
+
+Comparing the estimated p-value with the options provided, we see that:
+
+a) P < 0.05 - This is true since 0.02 is less than 0.05.
+b) P > 0.01 - This is false since 0.02 is greater than 0.01.
+c) P < 0.01 - This is true since 0.02 is less than 0.01.
+d) P > 0.05 - This is false since 0.02 is less than 0.05.
+
+Therefore, the correct answer is (c) P < 0.01.
+
+
+
+
+
+Use the one-mean t-test to perform the required hypothesis test at the 5% significance level.
+x bar= 23, s = 4, n = 15, H0: μ = 22, Ha: μ> 22
+
+What is the conclusion?
+
+Question 4 options:
+
+Reject H0; Evidence against H0 is Strong. 
+
+
+ Do not reject H0; Evidence against H0 is weak or none. 
+
+
+Do not reject Ha; Evidence against H0 is weak or none. 
+
+
+Accept H0; Evidence against H0 is weak or none. 
+To perform the one-mean t-test, we first need to calculate the test statistic:
+
+t = (x bar - μ) / (s / sqrt(n))
+
+Plugging in the given values, we get:
+
+t = (23 - 22) / (4 / sqrt(15)) = 1.936
+
+The degrees of freedom for this test is n - 1 = 14. Using a t-distribution table or calculator with 14 degrees of freedom and a significance level of 0.05, we find the critical value to be 1.761. Since the calculated t-value of 1.936 is greater than the critical value of 1.761, we reject the null hypothesis.
+
+Therefore, we reject H0 and conclude that there is evidence that the population mean is greater than 22 at the 5% significance level.
+
+The correct answer is "Reject H0; Evidence against H0 is Strong."
+
+
+
+
+
+Preliminary data analyses indicate that it is reasonable to use a t-test to carry out the specified hypothesis test. Perform the t-test using the P-value approach.
+
+Test whether the mean weight of female college students differs from 132 lb. The mean weight for a random sample of 20 female college students was x = 137 lb with a standard deviation, s, of 14.2 lb. Use a significance level of α = 0.1.
+
+What is the conclusion?
+
+Question 5 options:
+
+Do not reject the null hypothesis. 
+
+
+Reject the null hypothesis. 
+
+
+Accept the null hypothesis.
+
+
+Do not reject the alternate hypothesis.
+
+We can perform a two-tailed t-test to determine whether the mean weight of female college students differs from 132 lb. The null hypothesis is:
+
+H0: μ = 132
+
+The alternative hypothesis is:
+
+Ha: μ ≠ 132
+
+We can calculate the t-value using the formula:
+
+t = (x - μ) / (s / sqrt(n))
+
+where x is the sample mean, μ is the hypothesized population mean, s is the sample standard deviation, and n is the sample size. Plugging in the given values, we get:
+
+t = (137 - 132) / (14.2 / sqrt(20)) = 2.109
+
+The degrees of freedom for this test is n - 1 = 19. Using a t-distribution table or calculator with 19 degrees of freedom and a significance level of 0.1, we find the critical values to be ±1.729. Since the calculated t-value of 2.109 is greater than the positive critical value of 1.729, we reject the null hypothesis.
+
+Therefore, we reject H0 and conclude that there is evidence to suggest that the mean weight of female college students is different from 132 lb at the 10% significance level.
+
+The correct answer is "Reject the null hypothesis."
+
+
+
+
+
+
+2 / 2
+
+Use the one-mean t-test to perform the required hypothesis test at the 5% significance level.
+x Bar = 20, s = 4, n = 24, H0: μ = 22, Ha: μ  NOT= 22
+
+What is t statistic? (Round your answer to 3 decimal places)
+To perform the one-mean t-test, we can use the formula:
+
+t = (x bar - μ) / (s / sqrt(n))
+
+where x bar is the sample mean, μ is the hypothesized population mean, s is the sample standard deviation, and n is the sample size.
+
+Plugging in the given values, we get:
+
+t = (20 - 22) / (4 / sqrt(24)) = -3.464
+
+Rounding to 3 decimal places, we get:
+
+t = -3.464
+
+Therefore, the t-statistic is -3.464.
+
+
+
+
+
+Use the one-mean t-test to perform the required hypothesis test at the 5% significance level.
+x Bar = 20, s = 4, n = 24, H0: μ = 22, Ha: μ NOT= 22
+
+What is the conclusion?
+
+Question 7 options:
+
+0.02 < P < 0.05; Reject H0; Evidence against H0 is strong. 
+
+
+0.02 < P < 0.05; Do not reject H0; Evidence against H0 is weak. 
+
+
+0.01 < P < 0.05; Accept Ha; Evidence against H0 is strong. 
+
+
+0.05 < P < 0.10; Reject H0; Evidence against H0 is strong. 
+To perform the one-mean t-test, we need to calculate the t-statistic using the formula:
+
+t = (x bar - μ) / (s / sqrt(n))
+
+where x bar is the sample mean, μ is the hypothesized population mean, s is the sample standard deviation, and n is the sample size.
+
+Plugging in the given values, we get:
+
+t = (20 - 22) / (4 / sqrt(24)) = -3.464
+
+The degrees of freedom for this test is n - 1 = 23. Using a t-distribution table or calculator with 23 degrees of freedom and a significance level of 0.05, we find the critical values to be ±2.069.
+
+Since the calculated t-value of -3.464 is less than the negative critical value of -2.069 and falls in the rejection region, we reject the null hypothesis. Therefore, we have evidence to suggest that the population mean is different from 22 at the 5% significance level.
+
+The correct answer is: "0.02 < P < 0.05; Reject H0; Evidence against H0 is strong."
+
+
+
+
+
+reliminary data analyses indicate that it is reasonable to use a t-test to carry out the specified hypothesis test. Perform the t-test using the P-value approach.
+
+Test whether the mean weight of female college students differs from 132 lb. The mean weight for a random sample of 20 female college students was x = 137 lb with a standard deviation, s, of 14.2 lb. Use a significance level of α = 0.1.
+
+ 
+
+What is test statistics t? (Round your answer to 2 decimal places)
+To perform the t-test, we first need to calculate the test statistic, which is given by:
+
+t = (x bar - μ) / (s / sqrt(n))
+
+where x bar is the sample mean, μ is the hypothesized population mean, s is the sample standard deviation, and n is the sample size.
+
+Plugging in the given values, we get:
+
+t = (137 - 132) / (14.2 / sqrt(20)) ≈ 1.77
+
+Rounding to two decimal places, the test statistic is approximately 1.77.
+
+Therefore, the answer is 1.77.
+
+
+
+
+
+Estimate the P-value:
+Left-tailed test, n = 30, and t =−1.572
+
+options:
+
+0.05 > P > 0.10
+
+
+0.005 < P < 0.01
+
+
+0.05 < P < 0.10
+
+
+0.024 < P < 0.05
+To estimate the p-value for a left-tailed t-test with n = 30 and t = -1.572, we need to find the area to the left of t in the t-distribution with 30-1 = 29 degrees of freedom.
+
+Using a t-distribution table or calculator, we find that the area to the left of -1.572 is approximately 0.064.
+
+Since this is a left-tailed test, the p-value is the probability of observing a t-value less than or equal to -1.572, which is 0.064.
+
+Therefore, the answer is:
+
+0.05 > P > 0.10
+
+
+
+
+
+Estimate the P-value:
+Right-tailed test, n = 11, and t = 1.246
+
+Question 10 options:
+
+P < 0.10
+
+
+P > 0.05
+
+
+P < 0.05
+
+
+P > 0.10
+To estimate the p-value for a right-tailed t-test with n = 11 and t = 1.246, we need to find the area to the right of t in the t-distribution with 11-1 = 10 degrees of freedom.
+
+Using a t-distribution table or calculator, we find that the area to the right of 1.246 is approximately 0.12.
+
+Since this is a right-tailed test, the p-value is the probability of observing a t-value greater than or equal to 1.246, which is 0.12.
+
+Therefore, the answer is:
+
+P > 0.05
+
+
+
+
+
+
+2 / 2
+
+Use the one-mean t-test to perform the required hypothesis test at the 5% significance level.
+x bar = 21, s = 4, n = 32, H0: μ = 22, Ha: μ< 22
+
+What is the conclusion?
+
+options:
+
+A)0.005 < P < 0.01; Do not reject H0; Evidence against H0 is moderate.
+
+
+B)0.005 < P < 0.01; Do not reject H0; Evidence against H0 is Weak.
+
+
+C)0.05 < P < 0.10; Do not reject H0; Evidence against H0 is moderate. 
+
+
+D)0.05 < P < 0.10; Reject H0; Evidence against H0 is Strong.
+
+The null and alternative hypotheses are:
+
+H0: μ = 22
+Ha: μ < 22
+
+The level of significance is α = 0.05.
+
+The test statistic is:
+
+t = (x bar - μ) / (s / sqrt(n))
+t = (21 - 22) / (4 / sqrt(32))
+t = -2
+
+The degrees of freedom are df = n - 1 = 31.
+
+Using a t-table or a calculator, the P-value for a one-tailed t-test with 31 degrees of freedom and a t-statistic of -2 is approximately 0.027.
+
+Since the P-value is less than the level of significance, we reject the null hypothesis. There is sufficient evidence to support the alternative hypothesis that the true population mean weight is less than 22 pounds. Therefore, the conclusion is:
+
+A) 0.005 < P < 0.01; Do not reject H0; Evidence against H0 is moderate. (incorrect)
+
+The correct answer is:
+
+D) 0.05 < P < 0.10; Reject H0; Evidence against H0 is Strong.
+
+
+
+
+
+Use the one-mean t-test to perform the required hypothesis test at the 5% significance level.
+x bar= 23, s = 4, n = 15, H0: μ = 22, Ha: μ> 22
+
+What is t statistic? (Round your answer to 3 decimal places)
+The t-statistic is calculated as:
+
+t = (x bar - μ) / (s / sqrt(n))
+
+where x bar is the sample mean, μ is the hypothesized population mean, s is the sample standard deviation, and n is the sample size.
+
+Substituting the given values, we have:
+
+t = (23 - 22) / (4 / sqrt(15)) = 2.049
+
+Therefore, the t-statistic is 2.049 (rounded to 3 decimal places).
+
+
+
+
+
+
+2 / 2
+
+Use the one-mean t-test to perform the required hypothesis test at the 5% significance level.
+x bar= 23, s = 4, n = 15, H0: μ = 22, Ha: μ> 22
+
+What is the conclusion?
+
+options:
+
+A)Reject H0; Evidence against H0 is Strong. 
+
+
+ B)Do not reject H0; Evidence against H0 is weak or none. 
+
+
+C)Accept H0; Evidence against H0 is weak or none. 
+
+
+D)Do not reject Ha; Evidence against H0 is weak or none.
+A) Reject H0; Evidence against H0 is Strong.
+
+
+
+
+
+Use the one-mean t-test to perform the required hypothesis test at the 5% significance level.
+x Bar = 20, s = 4, n = 24, H0: μ = 22, Ha: μ  NOT= 22
+
+What is t statistic?
+The t statistic is calculated as:
+
+t = (x̄ - μ) / (s / √n)
+
+where x̄ is the sample mean, μ is the hypothesized population mean, s is the sample standard deviation, and n is the sample size.
+
+Plugging in the given values, we get:
+
+t = (20 - 22) / (4 / √24) = -3.464
+
+Rounding to three decimal places, we get t = -3.464.
